@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+img{
+    width: 100vw;
+    height: 100vh;
+    object-fit: fill;
+}
+
+#bg{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    mix-blend-mode: hue;  
+    /* hue will help to change only colored part */
+}
